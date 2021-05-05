@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body,h1,h2,h3,h4,h5,h6,p,ul,li,a,span,div {
+	margin: 0px;
+	padding: 0px;
+	}
+	body{
+		direction:rtl;
+		font-family: arial;
+		font-size:14px;
+		
+	}
+	
+	div{
+		background-color:#ccc;
+		border: 2px;
+		border-style: solid;
+		border-color: #000;
+		padding: 5px;
+		margin: 2px;
+	}
+	#container{
+		<!--background-color:#99ccff;-->
+		background-color:000;
+		height:2500px;
+	}
+	#header{
+		<!--color: #FFF;-->
+		<!--background-color: #E5E1CA;-->
+		height:55px;
+		background-image: url(images/menu.jpg);	
+	}
+	#nav{
+		background-color:#ff6600;
+		border-cilio: #ff6600;
+		
+		height:400px;
+	}
+	#nav #leftCol{
+		width:23%;
+		height:385px;
+		float:left;
+		
+	}
+	#nav #midCol{
+		width:49.8%;
+		height:385px;
+		float:left;
+	}
+	#nav #rightCol{
+		height:385px;
+		width:23%;
+		float:left;
+	}
+	#footer{
+		height:115px;
+		background-image: url(images/texture-bg.jpg);
+		background-repeat: repeat-x;
+		background-repeat: repeat-y;
+		<!--background-color:#336699;	-->					
+	}
+	#content1{
+		background-color:#dcdcdc;
+		border-color:#dcdcdc;
+		height:1865px;
+	}	
+
